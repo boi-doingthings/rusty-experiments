@@ -1,4 +1,4 @@
-* The main function is special: it is always the first code that runs in every executable Rust program. 
+  * The main function is special: it is always the first code that runs in every executable Rust program. 
 * Using a `!` means that you’re calling a macro instead of a normal function, and that macros don’t always follow the same rules as functions.
 * Rust is an ahead-of-time compiled language, meaning you can compile a program and give the executable to someone else, and they can run it even without having Rust installed. 
 * `Cargo` is Rust’s build system and package manager. 
